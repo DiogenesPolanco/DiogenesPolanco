@@ -5,7 +5,7 @@ sections:
     component: hero_block.html
     type: heroblock
     content: >-
--    I’m a developer. I am very excited about the development communities, entrepreneurship and especially open source.
+   I’m a developer. I am very excited about the development communities, entrepreneurship and especially open source.
   - section_id: about
     component: content_block.html
     type: contentblock
