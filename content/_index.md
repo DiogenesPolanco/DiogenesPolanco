@@ -9,8 +9,7 @@ sections:
     component: content_block.html
     type: contentblock
     title: About
-    content: >-
-I’m a developer. I am very excited about the development communities, entrepreneurship and especially open source.
+    content: >- I’m a developer. I am very excited about the development communities, entrepreneurship and especially open source.
     actions:
       - label: Contact Me
         url: /contact
