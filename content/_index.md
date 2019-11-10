@@ -5,13 +5,11 @@ sections:
     component: hero_block.html
     type: heroblock
     content: >-
-      \Develop?Enjoy=Contribute
   - section_id: about
     component: content_block.html
     type: contentblock
     title: About
     content: >-
-      Experienced Senior Software Engineer with a demonstrated history of working in the web apps corporative industry. Skilled in C#, ASP.NET, MVVM, MVC, Web Components, AngularJS, Ember.js, Git and Windows Communication Foundation (WCF). Strong engineering professional with a Software Engineering focused in Computer Software Engineering from Universidad APEC.
     actions:
       - label: Contact Me
         url: /contact
