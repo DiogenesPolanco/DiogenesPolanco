@@ -7,8 +7,7 @@
 
 I'm a Software Developer, Full Stack .NET Developer & Linux Enthusiast!
 - 🔭 I’m currently working on Claro Dominicana
-- 🌱 I’m currently learning `python`
-- 👯 I’m looking to collaborate with other content creators
+- 🌱 I’m currently learning `python` 
 - 🥅 2021 Goals: Enjoy life with my family and contribute more to other open source projects
 - ⚡ Fun fact: I love ☕ | 🌊 | 🐶 |💻
  
