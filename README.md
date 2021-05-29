@@ -22,6 +22,8 @@ I'm a Software Developer, Full Stack .NET Developer & Linux Enthusiast!
 [<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://www.google.com/search?&q=CSS)
 [<img align="left" alt="csharp" width="26px" src="https://image.flaticon.com/icons/svg/381/381704.svg" />](https://www.google.com/search?&q=csharp)
 [<img align="left" alt="javascript" width="26px" src="https://image.flaticon.com/icons/svg/919/919828.svg" />](https://www.google.com/search?&q=vanillaJs)
+[<img align="left" alt="typescript" width="26px" src="https://image.flaticon.com/icons/svg/919/919832.svg" />](https://www.google.com/search?&q=typescript)
+
 [<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/icons/python.svg" />](https://www.google.com/search?&q=Python)
 [<img align="left" alt="TSQL" width="26px" src="https://image.flaticon.com/icons/svg/2772/2772128.svg" />](https://www.google.com/search?&q=tsql)
 [<img align="left" alt="Cloud" width="26px" src="https://image.flaticon.com/icons/svg/892/892300.svg" />](https://www.google.com/search?&q=Azure)
