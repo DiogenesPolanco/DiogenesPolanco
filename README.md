@@ -6,7 +6,7 @@
 
 ### Hi there, I'm Diogenes Polanco 👋
 
-Hi, I'm Diogenes. Talented and hardworking web developer to create elegant solutions in the shortest time possible. I have developed e-commerce web applications, customer web portals, documentary publishing websites, educational training platforms, and donation web applications for a local charity. Passionate about software architecture and cloud computing. Regular attendee at events for web developers and software development communities. 
+Talented and hardworking web developer to create elegant solutions in the shortest time possible. I have developed e-commerce web applications, customer web portals, documentary publishing websites, educational training platforms, and donation web applications for a local charity. Passionate about software architecture and cloud computing. Regular attendee at events for web developers and software development communities. 
 - 🌱 I’m currently learning `python` 
 - 🥅 2022 Goals: Enjoy life with my family and contribute more to other open source projects
 - ⚡ Fun fact: I love ☕ | 🌊 | 🐶 |💻
