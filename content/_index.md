@@ -11,7 +11,7 @@ sections:
     type: contentblock
     title: About
     content: >-
-        I'm a developer. I am very excited about the development communities, entrepreneurship and especially open source.
+        I'm a developer. Talented and hardworking web developer to create elegant solutions in the shortest time possible. I have developed e-commerce web applications, customer web portals, documentary publishing websites, educational training platforms, and donation web applications for a local charity. Passionate about software architecture and cloud computing. Regular attendee at events for web developers and software development communities.
     actions:
       - label: Contact Me
         url: /contact
