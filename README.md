@@ -4,7 +4,7 @@
   <img alt="diogenespolanco's Github Stats" src="https://github-readme-stats.vercel.app/api?username=diogenespolanco&show_icons=true&include_all_commits=true&hide_border=true" />
 </p>
 
-### Hi there, I'm Diogenes Polanco 👋
+### Hi there, I'm Diógenes Polanco 👋
 
 Talented and hardworking web developer to create elegant solutions in the shortest time possible. I have developed e-commerce web applications, customer web portals, documentary publishing websites, educational training platforms, and donation web applications for a local charity. Passionate about software architecture and cloud computing. Regular attendee at events for web developers and software development communities. 
 - 🌱 I’m currently learning `python` 
