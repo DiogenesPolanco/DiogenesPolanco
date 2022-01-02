@@ -8,4 +8,4 @@ tags: ["nopcommerce", "angular", "dotnet", "csharp"]
 
  > We will create a plugin for nopcommerce taking advantage of the power of aspnet core and the angular fluids for the frontend. We will create a plugin that will import the products from an external service.
  
- <a href="https://dev.to/diogenespolanco/creating-a-nopcommerce-plugin-with-net-core-and-angular-part-i-b8h"> Read More </a>
+ [Read More](https://dev.to/diogenespolanco/creating-a-nopcommerce-plugin-with-net-core-and-angular-part-i-b8h)
