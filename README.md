@@ -1,8 +1,4 @@
  
- 
-<p align="center">
-  <img alt="diogenespolanco's Github Stats" src="https://github-readme-stats.vercel.app/api?username=diogenespolanco&show_icons=true&include_all_commits=true&hide_border=true" />
-</p>
 
 ### Hi there, I'm Diógenes Polanco 👋
 
