@@ -1,0 +1,83 @@
+{
+    "query": "*[_type == \"personal\"] {  \"roles\": roles,  \"about\": about,  \"email\": email,  \"skills\": *[ _type == \"skills\"] {    \"id\": _id,    \"title\": title,    \"image\": image.asset-\u003eurl  },  \"projects\": *[ _type == \"projects\"] {    \"id\": _id,    \"title\": title,    \"image\": image.asset-\u003eurl,    \"description\": description,    \"url\": url  },  \"achievements\": *[ _type == \"achievements\"] {    \"id\": _id,    \"title\": title,    \"image\": image.asset-\u003eurl,    \"description\": description,    \"url\": url  },}",
+    "result": [
+        {
+            "email": "diogenespolancomartinez@gmail.com",
+            "github":"@DiogenesPolanco",
+            "dev":"@DiogenesPolanco",
+            "skills": [
+                {
+                    "id": "0f39e66f-a2ed-4476-be95-cc2cc0a05591",
+                    "title": "Firebase",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/f85e84990f51e54be14aa4249733a8a2aa32dc2b-480x480.png"
+                },
+                {
+                    "id": "0fb71ffc-fce7-435e-bccb-10ab97d69602",
+                    "title": "Node JS",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/84f4c1a9c107798158dde3d4246668371a6c1064-512x512.png"
+                }, 
+                {
+                    "id": "26ee4fd8-e016-45d0-8acf-37a68e5e2e92",
+                    "title": "HTML5",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/f606c371efe5318b68ad538c7b2ca327aa8671aa-512x512.png"
+                }, 
+                {
+                    "id": "7a26c7c4-86fe-4730-ba29-f8267261993d",
+                    "title": "GraphQL",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/0dda6be1540b97ab0307076e614da55a414321cf-400x400.png"
+                },
+                {
+                    "id": "9bfe9adb-1350-4399-9791-0c1674556276",
+                    "title": "Typescript",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/9f22d765d4ba7140aa43b8f36882316d9480a545-512x512.png"
+                },
+                {
+                    "id": "9cc555a6-0ed8-43c6-89a8-e0bb9d0f0a45",
+                    "title": "Redux",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/ca3e5ebfd53a783df6c53ceb6e810e62ce19daaa-512x463.png"
+                }, 
+                {
+                    "id": "b2fa330a-9df8-48af-8769-4d0bdc428ee1",
+                    "title": "Javascript",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/093ea39748ad4561f3b9c1370c90e844f0389a24-512x512.png"
+                },
+                {
+                    "id": "b3617f58-ff30-46b0-9cbf-76588db0e515",
+                    "title": "mongoDB",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/b6406a7346e1db286831d962335e9ca58fbd9644-512x512.png"
+                },
+                {
+                    "id": "be230d53-baab-422d-a0e7-0faf4904dfb4",
+                    "title": "git",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/9d3aa354415fc00b324ce1cc1c877c27f3ba4a29-512x512.png"
+                },
+                {
+                    "id": "e6c9d657-dc97-40a1-bcb5-305fb657edbf",
+                    "title": "Python",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/744f2421b0084935450cdc400efefeba6a8d0f93-512x512.png"
+                }
+            ],
+            "projects": [
+                {
+                    "description": "YoungBiz is a dedicated platform designed specifically for kids and teenagers. It empowers them to showcase and sell their creations, enabling them to earn pocket money and cultivate entrepreneurial skills from a young age.",
+                    "url": "https://github.com/BrijenMakwana/young-biz",
+                    "id": "5faac690-e67d-4f42-9a58-426c912cf16f",
+                    "title": "YoungBiz",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/bfe55a5d2221e5e0c2121c4d14cb141c44b59488-758x556.png"
+                } 
+            ],
+            "achievements": [
+                {
+                    "id": "bed0a13c-5763-4638-9aad-399d3f18f6cc",
+                    "title": "Technical Content Writer at GeeksForGeeks",
+                    "image": "https://cdn.sanity.io/images/gzsq4ssh/production/14b783dc77883606a1bb38e1b4b57c5e7d396876-1200x1200.png",
+                    "description": "I have multiple articles published on GeeksforGeeks. This articles have been proven very useful for many software developers.",
+                    "url": "https://auth.geeksforgeeks.org/user/brijenMakwana/articles"
+                } 
+            ],
+            "roles": "Happy husband, Proud father, Developer, Project Development and Innovation Manager",
+            "about": "Hi, I'm talented and hardworking web dev to create elegant solutions in the shortest time possible."
+        }
+    ],
+    "ms": 10
+}
