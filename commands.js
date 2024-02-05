@@ -106,6 +106,10 @@ const getHelp = () => {
 
   const availableCommands = [
     {
+      command: "today",
+      description: "Know about me today",
+    },
+    {
       command: "whoami",
       description: "What I do",
     },
