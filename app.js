@@ -84,6 +84,17 @@ const scrollToBottomEnd = () => {
 const showCommandOutput = (output) => {
   commandOutput.innerHTML += output;
 };
+const ShowOrhide = (name, show) => {
+  let elementToShowOrhide = document.getElementById(name);
+  elementToShowOrhide.style = show ? "display:block;" : "display:none;";
+  return elementToShowOrhide;
+}
+
+const todayHBDCommandInput = (today) => {
+  ShowOrhide("office", false);
+  let elementToday = ShowOrhide(today, true);
+  elementToday.src = "https://media1.tenor.com/m/23n4fRZqoSUAAAAC/it-is-my-birthday-carlton.gif";
+};
 
 const executeCommand = () => {
   const userEnteredCommand = command.value.trim().toLowerCase();
@@ -91,6 +102,13 @@ const executeCommand = () => {
   switch (userEnteredCommand) {
     case "help":
       showCommandOutput(helpSectionHTML);
+      addCommandToHistory();
+
+      break;
+    case "today":
+      if (Date().toString().indexOf("Feb 05") >= 0)
+        todayHBDCommandInput(userEnteredCommand);
+
       addCommandToHistory();
 
       break;
