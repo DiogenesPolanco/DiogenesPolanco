@@ -4,7 +4,7 @@
 
 Talented and hardworking developer to create elegant solutions in the shortest time possible.  
 - 🌱 I’m currently learning `open banking` 
-- 🥅 2024 Goals: Enjoy life with my family and contribute more to other open source projects
+- 🥅 2026 Goals: Enjoy life with my family and contribute more to other open source projects
 - ⚡ Fun fact: I love ☕ | 🌊 | 🐶 |💻
  
 ### Languages and Tools:
