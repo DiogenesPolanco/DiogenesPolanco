@@ -17,7 +17,7 @@ export default function Contact() {
   };
 
   const socials = [
-    { label: 'Email', href: 'mailto:diogenes@polanco.com', icon: '✉' },
+    { label: 'Email', href: 'mailto:diogenespolancomartinez@gmail.com', icon: '✉' },
     { label: 'GitHub', href: 'https://github.com/DiogenesPolanco', icon: '⌘' },
     { label: 'Twitter', href: 'https://twitter.com/diogenespolanco', icon: '𝕏' },
     { label: 'LinkedIn', href: 'https://linkedin.com/in/diogenespolanco', icon: '◈' },

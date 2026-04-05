@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-DiogenesPolanco-181717?style=flat&logo=github)](https://github.com/DiogenesPolanco)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-diogenespolanco-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/diogenespolanco)
 [![Twitter](https://img.shields.io/badge/Twitter-diogenespolanco-1DA1F2?style=flat&logo=twitter)](https://twitter.com/diogenespolanco)
-[![Email](https://img.shields.io/badge/Email-diogenes@polanco.com-D14836?style=flat&logo=gmail)](mailto:diogenes@polanco.com)
+[![Email](https://img.shields.io/badge/Email-diogenespolancomartinez@gmail.com-D14836?style=flat&logo=gmail)](mailto:diogenespolancomartinez@gmail.com)
 
 ## About Me
 
