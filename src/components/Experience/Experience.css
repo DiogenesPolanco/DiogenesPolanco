@@ -1,0 +1,137 @@
+.experience-section {
+  padding: var(--section-spacing) 0;
+  background: var(--bg-secondary);
+}
+
+.timeline {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.5rem;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 20px;
+}
+
+.marker-dot {
+  width: 12px;
+  height: 12px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent-primary);
+  transition: all 0.3s ease;
+}
+
+.timeline-item.visible .marker-dot {
+  transform: scale(1.2);
+}
+
+.marker-line {
+  width: 2px;
+  flex: 1;
+  background: linear-gradient(to bottom, var(--accent-primary), transparent);
+  margin-top: 0.5rem;
+}
+
+.timeline-content {
+  flex: 1;
+  padding-bottom: 2.5rem;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.job-role {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.job-period {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--accent-primary);
+}
+
+.job-company {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.job-highlights {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.job-highlights li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.job-highlights li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--accent-primary);
+  font-weight: bold;
+}
+
+.job-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  padding: 0.25rem 0.75rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  border-color: var(--accent-secondary);
+  color: var(--accent-secondary);
+}
+
+@media (max-width: 640px) {
+  .timeline-item {
+    gap: 1rem;
+  }
+
+  .job-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

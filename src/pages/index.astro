@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero/Hero';
+import Chat from '../components/Chat/Chat';
+import Projects from '../components/Projects/Projects';
+import Experience from '../components/Experience/Experience';
+import Skills from '../components/Skills/Skills';
+import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
+---
+
+<Layout title="Diogenes Polanco - Manager of Development, Projects and Innovation">
+  <main>
+    <Hero client:load />
+    <Chat client:visible />
+    <Projects client:visible />
+    <Experience client:visible />
+    <Skills client:visible />
+    <Contact client:visible />
+  </main>
+  <Footer />
+</Layout>
