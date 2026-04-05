@@ -1,4 +1,4 @@
-# Astro Starter Kit: Minimal
+# DiogenesPolanco.com
 
 ```sh
 npm create astro@latest -- --template minimal
