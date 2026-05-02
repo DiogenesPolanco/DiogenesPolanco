@@ -16,7 +16,7 @@ const staticRepos: Repo[] = [
   { name: 'RD.js', description: 'JavaScript utility library for Dominican Republic data', url: 'https://github.com/DiogenesPolanco/RD.js', stars: 8, forks: 2, language: 'JavaScript' },
   { name: 'EdgarJs', description: 'JavaScript library for parsing SEC EDGAR financial reports', url: 'https://github.com/DiogenesPolanco/EdgarJs', stars: 156, forks: 45, language: 'TypeScript' },
   { name: 'TSPoints', description: 'TypeScript points system for gamification', url: 'https://github.com/DiogenesPolanco/TSPoints', stars: 3, forks: 1, language: 'TypeScript' },
-  { name: 'FamilyFinance', description: 'Family finance management app (Under construction)', url: '#', stars: 0, forks: 0, language: 'TypeScript' },
+  { name: 'FamilyFinance', description: 'Family finance management app (Under construction)', url: 'https://github.com/DiogenesPolanco/FamilyFinance', stars: 0, forks: 0, language: 'TypeScript' },
 ];
 
 const languageColors: Record<string, string> = {
