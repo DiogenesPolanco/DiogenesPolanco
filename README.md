@@ -88,7 +88,7 @@ I'm passionate about clean architecture, microservices, AI/LLMs integration, and
 | [Visual-Studio-Services-Auth-Library-Js](https://github.com/DiogenesPolanco/Visual-Studio-Sevices-Auth-Library-Js) | Angular module for Visual Studio Online authentication | TypeScript |
 | [RD.js](https://github.com/DiogenesPolanco/RD.js) | JavaScript utility library for Dominican Republic data | JavaScript |
 | [TSPoints](https://github.com/DiogenesPolanco/TSPoints) | TypeScript points system for gamification | TypeScript |
-| [FamilyFinance](https://github.com/DiogenesPolanco/FamilyFinance) | Family finance management app (Under construction) | TypeScript |
+| [FamilyFinance](https://github.com/DiogenesPolanco/FamilyFinance#) | Family finance management app (Under construction) | TypeScript |
 
 ## Personal
 
