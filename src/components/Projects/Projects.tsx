@@ -10,6 +10,22 @@ interface Repo {
   language: string;
 }
 
+interface LiveProject {
+  name: string;
+  description: string;
+  url: string;
+  category: string;
+}
+
+const liveProjects: LiveProject[] = [
+  {
+    name: 'TGP — Technology Governance Platform',
+    description: 'Plataforma de Gobierno Tecnológico Empresarial — monitoreo, gestión y gobernanza de aplicaciones, tecnologías, vulnerabilidades, riesgos, equipos, OKRs, planes de ejecución y entregables en una sola herramienta cliente-side.',
+    url: 'https://tgp.diogenespolanco.com',
+    category: 'Plataforma',
+  },
+];
+
 const staticRepos: Repo[] = [
   { name: 'Visual-Studio-Services-Auth-Library-Js', description: 'Angular module for Visual Studio Online authentication', url: 'https://github.com/DiogenesPolanco/Visual-Studio-Sevices-Auth-Library-Js', stars: 4, forks: 5, language: 'TypeScript' },
   { name: 'nopCommerce-cli', description: 'Command line interface for nopCommerce e-commerce platform', url: 'https://github.com/DiogenesPolanco/nopCommerce-cli', stars: 12, forks: 3, language: 'C#' },
@@ -44,6 +60,29 @@ export default function Projects() {
         </div>
 
         <div className="projects-grid">
+          {liveProjects.map((project, i) => (
+            <a
+              key={project.name}
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card project-card--live"
+              style={{ animationDelay: `${i * 0.1}s` }}
+            >
+              <div className="project-header">
+                <h3 className="project-name">{project.name}</h3>
+                <span className="project-badge">Live</span>
+              </div>
+              <p className="project-desc">{project.description}</p>
+              <div className="project-stats">
+                <span className="stat">
+                  <span className="stat-icon">🌐</span>
+                  {project.category}
+                </span>
+              </div>
+            </a>
+          ))}
+
           {repos.map((repo, i) => (
             <a
               key={repo.name}
@@ -51,7 +90,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               className="project-card"
-              style={{ animationDelay: `${i * 0.1}s` }}
+              style={{ animationDelay: `${(i + liveProjects.length) * 0.1}s` }}
             >
               <div className="project-header">
                 <h3 className="project-name">{repo.name}</h3>
