@@ -50,6 +50,28 @@
   position: relative;
 }
 
+.project-card--live {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent-primary) 8%, var(--bg-secondary)), var(--bg-secondary));
+  border-color: color-mix(in srgb, var(--accent-primary) 30%, var(--border-subtle));
+}
+
+.project-card--live:hover {
+  border-color: transparent;
+}
+
+.project-badge {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #fff;
+  white-space: nowrap;
+}
+
 .project-card::before {
   content: '';
   position: absolute;
