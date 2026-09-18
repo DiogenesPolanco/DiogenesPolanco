@@ -13,7 +13,7 @@ const jobs: Job[] = [
   {
     company: 'APAP',
     role: 'Manager of Development, Projects and Innovation',
-    period: '2023 - Present',
+    period: '2023 - 2026',
     highlights: [
       'Strategic planning and roadmapping',
       'Team leadership and talent development',
