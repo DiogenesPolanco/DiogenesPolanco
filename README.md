@@ -50,7 +50,7 @@ I'm passionate about clean architecture, microservices, AI/LLMs integration, and
 
 ### APAP | Dominican Republic
 
-**Manager of Development, Projects and Innovation** *(2023 - Present)*
+**Manager of Development, Projects and Innovation** *(2023 - 2026)*
 - Leading team of 15+ developers
 - Strategic planning and roadmapping
 - Solution architecture and technical direction
